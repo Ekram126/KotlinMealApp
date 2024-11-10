@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mealapp.MainActivity">
+<!--    <item-->
+<!--        android:id="@+id/action_settings"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/action_settings"-->
+<!--        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/lnkCategories"
+        android:orderInCategory="100"
+        android:title="Categories"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/lnkArea"
+        android:orderInCategory="100"
+        android:title="Area"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/lnkIngredient"
+        android:orderInCategory="100"
+        android:title="Ingredient"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/lnkMOD"
+        android:orderInCategory="100"
+        android:title="Meal of Day"
+        app:showAsAction="never" />
+</menu>
